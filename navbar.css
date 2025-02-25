@@ -1,0 +1,38 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #4a4a4a;
+    padding: 10px 20px;
+}
+
+.left-section ul,
+.right-section {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.left-section ul li {
+    margin-right: 15px;
+}
+
+.left-section ul li a {
+    text-decoration: none;
+    color: red; /* Changed to red */
+    font-weight: bold;
+}
+
+.right-section button {
+    margin-left: 10px;
+    padding: 5px 10px;
+    background-color: #6c757d;
+    border: none;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.right-section button[data-bs-theme-value="light"] {
+    background-color: rgb(95, 92, 92);
+    color: black;
+}

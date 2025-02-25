@@ -1,0 +1,82 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+main {
+    flex: 1;
+}
+
+footer {
+    background-color: #4a4a4a;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.grid-container {
+    display: grid;
+    gap: 15px;
+    padding: 20px;
+    background-color: #1e1e1e;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+}
+
+.col-1-3 {
+    width: 33%;
+    color: #bdbdbd;
+    font-size: 1.2rem;
+}
+
+.col-2-3 {
+    width: 67%;
+}
+
+.input-box {
+    width: 100%;
+    font-size: 2rem;
+    padding: 10px;
+    background-color: #2a2a2a;
+    color: white;
+    border: 1px solid gray;
+}
+
+#resultScreen {
+    width: 100%;
+    height: 80px;
+    background-color: #332703;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    border: 2px solid white; /* Added white border */
+}
+
+.button-container {
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 20px;
+}
+
+#enterButton {
+    background-color: grey; /* Grey background */
+    color: white; /* White text */
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+#enterButton:hover {
+    background-color: #5a5a5a; /* Darker grey on hover */
+}
